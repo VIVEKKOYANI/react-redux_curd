@@ -59,7 +59,7 @@ function TodoInput() {
                 description: description,
                 price: price,
                 available: available,
-                discount: discount
+                discount: discount,
               })
             );
             setName("");
@@ -72,7 +72,6 @@ function TodoInput() {
           Add
         </button>
       </div>
-      
     </div>
   );
 }

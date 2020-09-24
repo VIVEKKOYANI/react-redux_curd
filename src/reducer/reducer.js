@@ -29,5 +29,4 @@ export const reducer = (state = todos, action) => {
       }
   }
   return state;
-
 };
