@@ -5,6 +5,9 @@ import { v1 as uuid } from "uuid";
 import { useDispatch } from "react-redux";
 
 function TodoInput() {
+  {
+    /* all state */
+  }
   const [name, setName] = useState();
   const [description, setDescription] = useState();
   const [price, setPrice] = useState();
@@ -13,6 +16,7 @@ function TodoInput() {
   let dispatch = useDispatch();
   return (
     <div>
+      {/* all input */}
       <div className="row m-2">
         <label htmlFor="name">ProductName</label>
         <input

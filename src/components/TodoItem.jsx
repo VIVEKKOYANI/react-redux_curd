@@ -4,6 +4,10 @@ import { deleteTodo, updateTodo } from "../reducer/actions";
 import { useState } from "react";
 import "../App.css";
 
+{
+  /* Item Edit */
+}
+
 function TodoItem({ todo }) {
   const [editable, setEditable] = useState(false);
   const [name, setName] = useState(todo.name);

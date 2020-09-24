@@ -1,6 +1,10 @@
 import { ADD_TODO, DELETE_TODO, UPDATE_TODO } from "./actions";
 import { todos } from "./stats";
 
+{
+  /* Reducer  */
+}
+
 export const reducer = (state = todos, action) => {
   let newTodos;
   switch (action.type) {
